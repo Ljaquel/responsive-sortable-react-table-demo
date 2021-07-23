@@ -12,6 +12,16 @@ const App = () => {
       <Table
         headers={data.headers}
         content={data.content}
+        pageSize={10}
+        />
+      <h3>Custom:</h3>
+      <Table
+        headers={data.headers}
+        content={data.content}
+        pageSize={10}
+        className="my-table"
+        headClass="my-header"
+        bodyClass="my-body"
         />
     </div>
   );
