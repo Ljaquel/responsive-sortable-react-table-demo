@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css'
+import './Table.css'
 import data from './data.json'
 import Table from 'responsive-sortable-react-table'
 import 'responsive-sortable-react-table/dist/style.css'
@@ -13,14 +14,8 @@ const App = () => {
         headers={data.headers}
         content={data.content}
         pageSize={10}
-        />
-      <h3>Custom:</h3>
-      <Table
-        headers={data.headers}
-        content={data.content}
-        pageSize={10}
         className="my-table"
-        headClass="my-header"
+        headerClass="my-header"
         bodyClass="my-body"
         />
     </div>
