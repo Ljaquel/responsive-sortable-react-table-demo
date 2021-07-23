@@ -1,0 +1,44 @@
+{
+  "name": "responsive-sortable-react-table-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --open --hot",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ljaquel/responsive-sortable-react-table-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ljaquel/responsive-sortable-react-table-demo/issues"
+  },
+  "homepage": "https://github.com/Ljaquel/responsive-sortable-react-table-demo#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "responsive-sortable-react-table": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  }
+}

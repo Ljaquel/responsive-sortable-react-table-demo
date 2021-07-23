@@ -1,0 +1,46 @@
+{
+  "content": [
+      {
+          "id": "112067871",
+          "name": "Jaquel",
+          "email": "lj@sbu.com",
+          "major": "Comp. Science"
+      },
+      {
+          "id": "111694728",
+          "name": "Joe",
+          "email": "joe@sbu.com",
+          "major": "Business"
+      },
+      {
+          "id": "114729405",
+          "name": "Clara",
+          "email": "clara@sbu.com",
+          "major": "Criminal Justice"
+      },
+      {
+          "id": "112479392",
+          "name": "Frank",
+          "email": "frank@sbu.com",
+          "major": "Psychology"
+      },
+      {
+          "id": "138469480",
+          "name": "Jane",
+          "email": "jane@sbu.com",  
+          "major": "Biology"
+      },
+      {
+          "id": "145674586",
+          "name": "Mary",
+          "email": "mary@gmail.com",  
+          "major": "Physics"
+      }
+  ],
+  "headers": {
+      "id": "ID",
+      "name": "Name",
+      "email": "Email",
+      "major": "Major"
+  }
+}
